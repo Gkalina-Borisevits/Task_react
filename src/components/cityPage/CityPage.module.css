@@ -1,0 +1,16 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.imgWrapper{
+    width: 1100px;
+    height: 650px;
+    margin: 15px;
+}
+.container p {
+   font-size: 26px;
+   color: #443c3c; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}

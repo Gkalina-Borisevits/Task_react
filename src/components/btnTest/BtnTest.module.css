@@ -1,0 +1,28 @@
+.container {
+    padding: 10px 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .container>h1 {
+    margin: 5px;
+  }
+  
+  .headingActive {
+    color: #E9E9E9
+  }
+  
+  .headingDisabled {
+    color: #6d78b8;
+  }
+  
+  .containerDisabled {
+    background-color: #E9E9E9
+  }
+  
+  .containerActive {
+    background-color: #939bc6;
+  }

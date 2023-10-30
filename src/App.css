@@ -12,6 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.imgWrapper {
+  width: 300px;
+  height: 180px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.berlinImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .App-header {
   background-color: #282c34;

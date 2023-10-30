@@ -1,0 +1,12 @@
+.dogImg {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(178, 178, 230);
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
