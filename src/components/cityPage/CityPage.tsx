@@ -1,5 +1,6 @@
 import {FC, useState} from 'react'
 import styles from "./CityPage.module.css";
+import MyButton from '../myButton/MyButton';
 
 const CityPage: FC = () => {
     const [isBerlin, setIsBerlin] = useState(true);
@@ -25,7 +26,7 @@ const CityPage: FC = () => {
     <div className={styles.imgWrapper}>
     <img className='berlinImg' src={cityData?.imgUrl} alt=''></img>
     </div>
-    <button onClick={toggleCity}>{isBerlin ? 'switch to Paris' : 'back to Berlin'}</button>
+    <MyButton onClick={toggleCity} text={isBerlin ? 'switch to Paris' : 'back to Berlin'} />
     </div>
 )
 }

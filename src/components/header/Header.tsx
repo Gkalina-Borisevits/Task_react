@@ -12,6 +12,8 @@ const Header: FC = () => {
     <NavLink to="cityPage">cityPage</NavLink>
     <NavLink to="sandwich">sandwich</NavLink>
     <NavLink to="btnTest">btnTest</NavLink>
+    <NavLink to="productPage">productPage</NavLink>
+    <NavLink to="userPage">userPage</NavLink>
     <NavLink to="catCard">catCard</NavLink>
     <NavLink to="dogCard">dogCard</NavLink>
     <NavLink to="parent">parent</NavLink>

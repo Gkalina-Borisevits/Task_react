@@ -1,0 +1,43 @@
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(242, 213, 177);
+    list-style-type: none;
+    margin: 0;
+}
+
+.productCard {
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.imgContainer {
+    height: 380px;
+    width: 280px;
+    overflow: hidden;
+}
+
+.title {
+    word-wrap: break-word;
+    width: 200px;
+    margin:10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: rgb(82, 71, 57);
+    margin: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    object-fit: contain;
+}

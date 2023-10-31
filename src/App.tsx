@@ -12,11 +12,14 @@ import DogCard from './components/dogCard/DogCard';
 import Layout from './layouts/Layout';
 import Error from './components/error/Error';
 import Parent from './components/parent/Parent';
+import ProductPage from './components/productPage/ProductPage';
+import Product from './components/product/ProductItem';
+import UserPage from './components/userPage/UserPage';
 
 const App = (): JSX.Element => (
   <Routes>
 
-<Route path="/" element={<Layout/>}>
+<Route path="/Task_react" element={<Layout/>}>
       <Route index element={<RandomActivity />} />
       <Route path="counter" element={<Counter />} />
       <Route path="cityPage" element={<CityPage />} />
@@ -25,6 +28,9 @@ const App = (): JSX.Element => (
       <Route path="catCard" element={<CatCard />} />
       <Route path="dogCard" element={<DogCard />} />
       <Route path="parent" element={<Parent/>} />
+      <Route path="userPage" element={<UserPage/>} />
+      <Route path="productPage" element={<ProductPage/>} />
+      <Route path="productPage/:id" element={<Product/>} />
       {/* <Route path="form" element={<Form/>} /> */}
       <Route path="*" element={<Error/>} />
 

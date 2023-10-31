@@ -1,0 +1,33 @@
+.container {
+border: 3px solid rgb(216, 200, 232);
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+width: 350px;
+padding: 8px;
+background-color: rgb(252, 252, 235);
+justify-content: center;
+
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+h1 {
+    
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    background-color: bisque;
+}
+.bigContainer {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
